@@ -59,7 +59,8 @@ The server will run on `http://localhost:5000` and provide the necessary API end
 ## Project Structure
 
 The project structure is as follows:
-
+```
+```
 react-tweets/
 |-- dummy-backend/
 |   |-- server.js             # Express server file
@@ -78,8 +79,8 @@ react-tweets/
 |-- package-lock.json         # Detailed information about project dependencies
 |-- vite.config.js            # Configuration file for Vite
 |-- README.md                 # Project documentation
-
-
+```
+```
 ## Customization
 
 Feel free to customize the application according to your needs. Here are a few suggestions:
@@ -92,9 +93,6 @@ Feel free to customize the application according to your needs. Here are a few s
 
 This project was created using Vite, React, and Express. For more information, refer to the [Vite documentation](https://vitejs.dev/), [React documentation](https://reactjs.org/), and [Express documentation](https://expressjs.com/).
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 ```
 
 Feel free to copy and paste this README.md content into your GitHub repository and customize it according to your project details.
