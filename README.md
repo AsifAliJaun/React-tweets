@@ -60,7 +60,6 @@ The server will run on `http://localhost:5000` and provide the necessary API end
 
 The project structure is as follows:
 
-```
 react-tweets/
 |-- dummy-backend/
 |   |-- server.js             # Express server file
@@ -79,7 +78,7 @@ react-tweets/
 |-- package-lock.json         # Detailed information about project dependencies
 |-- vite.config.js            # Configuration file for Vite
 |-- README.md                 # Project documentation
-```
+
 
 ## Customization
 
