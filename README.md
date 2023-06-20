@@ -1,5 +1,3 @@
-Certainly! Here's an overall README.md template for your GitHub repository:
-
 ```markdown
 # React Tweets
 
