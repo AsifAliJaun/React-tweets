@@ -1,11 +1,11 @@
 ```markdown
 # React Tweets
 
-React Tweets is a web application built using Vite, a fast build tool for React projects. It allows users to create and view tweets in a single-page application. The application is connected to a dummy backend made in Express, which provides the necessary data for displaying posts.
+React Tweets is a web application built using React and Vite. It allows users to create and view tweets in a single-page application. The application is connected to a dummy backend made in Express, which provides the necessary data for displaying posts.
 
 ## Prerequisites
 
-Before running the application, ensure you have the following installed on your system:
+Before running the application, make sure you have the following installed on your system:
 
 - Node.js (version 12 or above)
 - npm (Node Package Manager)
@@ -62,35 +62,40 @@ The project structure is as follows:
 
 ```
 react-tweets/
-  |- dummy-backend/
-      |- server.js          # Express server file
-      |- data.json          # Dummy data for posts
-  |- src/
-      |- assets/            # Contains static assets like images
-      |- components/        # Contains reusable React components
-      |- App.jsx            # Main component rendering the application
-      |- index.css          # CSS styles for the application
-      |- main.jsx           # Entry point of the application
-      |- style.css          # Global CSS styles
-  |- index.html             # HTML template
-  |- package.json           # Project dependencies and scripts
-  |- package-lock.json      # Detailed information about project dependencies
-  |- vite.config.js         # Configuration file for Vite
-  |- README.md              # Project documentation
+|-- dummy-backend/
+|   |-- server.js             # Express server file
+|   |-- data/
+|       |-- posts.json        # Dummy data for posts
+|-- src/
+|   |-- assets/               # Contains static assets like images
+|   |-- components/           # Contains reusable React components
+|   |-- App.jsx               # Main component rendering the application
+|   |-- index.css             # CSS styles for the application
+|   |-- main.jsx              # Entry point of the application
+|   |-- style.css             # Global CSS styles
+|-- public/
+|   |-- index.html            # HTML template
+|-- package.json              # Project dependencies and scripts
+|-- package-lock.json         # Detailed information about project dependencies
+|-- vite.config.js            # Configuration file for Vite
+|-- README.md                 # Project documentation
 ```
 
 ## Customization
 
 Feel free to customize the application according to your needs. Here are a few suggestions:
 
-- Modify the `Tweet` component in the `components/` directory to change the appearance or add additional fields to each tweet.
-- Implement additional API endpoints in the Express server to support features such as posting new tweets or user authentication.
-- Connect the application to a real backend server or a database for persistent data storage.
+- Modify the components in the `src/components/` directory to change the appearance or add additional functionality to the application.
+- Implement additional API endpoints in the Express server (`dummy-backend/server.js`) to support features such as posting new tweets or user authentication.
+- Enhance the CSS styles in `src/index.css` and `src/style.css` to customize the look and feel of the application.
 
 ## Credits
 
 This project was created using Vite, React, and Express. For more information, refer to the [Vite documentation](https://vitejs.dev/), [React documentation](https://reactjs.org/), and [Express documentation](https://expressjs.com/).
 
+## License
 
+This project is licensed under the [MIT License](LICENSE).
+```
 
-Feel free to copy and paste this template into your README.md file in your GitHub repository and customize it according to your specific project details.
+Feel free to copy and paste this README.md content into your GitHub repository and customize it according to your project details.
